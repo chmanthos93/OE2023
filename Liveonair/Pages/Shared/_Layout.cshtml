@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Omades Egrasias 2023</title>
+    <link rel="shortcut icon" type="image/png" href="./images/hcs_logo.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/custom.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/inred.js"></script>
+</head>
+<body>
+    <header>
+        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #e3f2fd;">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-page="/Index">Liveonair</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            </li>
+                        </ul>
+                        </div>
+                </div>
+            </nav>*@
+    </header>
+
+    <style>
+        
+    </style>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 col-sm-2 bg-menu">
+                <nav class="navbar-nav navbar-expand-lg bg-menu flex-column">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars mob-button"></span>
+                    </button>
+                    <div class="collapse navbar-collapse pt-lg-3" id="mainmenu" style="margin:auto">
+
+                        <ul class="navbar-nav flex-md-column mr-auto text-left font-weight-bold">
+                            <li class="nav-item pb-lg-2">
+                                <img class="card-img item-logo" style="background-color: white;" src="~/images/hcs_logo-wide-dark.png"/>
+                            </li>
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Welcome">Home</a>
+                            </li>
+                            @*<li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Registration">Registration</a>
+                            </li>*@
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Livestream">Live Stream</a>
+                            </li>
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Program">Program</a>
+                            </li>
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Speakers">Speakers Index</a>
+                            </li>
+                            @*<li class="nav-item item-menu">
+                                    <a class="nav-link text-light" asp-area="" asp-page="/ePosters">e-Posters</a>
+                                </li>*@
+                            <li class="nav-item item-menu">
+                                    <a class="nav-link text-light" asp-area="" asp-page="/Sponsors">Sponsors</a>
+                                </li>
+                            @*<li class="nav-item item-menu">
+                                    <a class="nav-link text-light" asp-area="" asp-page="/Exhibition">Virtual Exhibition</a>
+                                </li>*@
+                           @* <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/eSite">VDL Website</a>
+                            </li>*@
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Livevideohelp">Live Video Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-xs-11 col-sm-10" @*style="min-height:94vh;"*@>
+                <main role="main" class="pb-3">
+                    @*<img class="card-img" style="max-width:auto;" src="./images/header.jpg"/>
+                    <div class="counter-block" id="counter-block">
+                        <p class="counter-text" id="counter"></p>
+                    </div>*@
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted shadow-foot" style="position:absolute; bottom:0;">
+        <div class="container">
+            &copy; <a href="https://vdl.gr" target="_blank">VDL Productions</a> - 2023 - Liveonair - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("FEB 16, 2023 08:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("counter").innerHTML = days + "D " + hours + "H "
+  + minutes + "M " + seconds + "S ";
+
+  // If the count down is finished, write some text
+  //if (distance < 0) {
+  //  clearInterval(x);
+  //  document.getElementById("counter").style.visibility="hidden";
+  //}
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "The Event Is Live";
+  }
+}, 1000);
+</script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

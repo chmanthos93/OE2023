@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "eSite";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    .iframe-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .iframe-responsive {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
+
+<div class="iframe-container">
+    <iframe class="iframe-responsive" src="https://vdl.gr/" frameborder="0"></iframe>
+</div>

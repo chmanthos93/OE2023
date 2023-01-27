@@ -1,0 +1,169 @@
+﻿/*LAYOUT*/
+
+/*Menu Background Color*/
+.bg-menu {
+    background-color: #576a82 !important;
+}
+
+.navbar-nav > li {
+    margin: 5px 0px 5px 0px;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.item-logo {
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 50%);
+    padding: 2px 0px 2px 0px;
+}
+
+.item-menu {
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 50%);
+    padding: 2px 0px 2px 0px;
+    
+}
+
+.item-menu:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+.shadow-foot {
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 50%);
+}
+.logo-style {
+    box-shadow: 0px 0px 8px #576a82;
+}
+
+/*.logo-style:hover{
+transform: scale(1.1,1.1)
+}*/
+
+.welcome-table {
+    height:80vh;
+    width:100%;
+}
+
+.counter-block {
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #fbae39;
+    border-radius: 8px;
+    /*box-shadow: 0px 0px 10px #15b139;*/
+}
+
+.counter-text {
+    color: white;
+    font-size: 64px;
+}
+
+
+/*.item-menu:active{
+    
+}*/
+
+.color-link {
+    color: white;
+}
+
+/*.color-link:{
+    color:red !important;
+}*/
+
+
+.iframe-container{
+    width: 100%;
+    min-height:82vh;
+    overflow: hidden;
+}
+
+.iframe-responsive {
+    padding-top: 8%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bot-place {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+
+.sponsor-img {
+    height: 100%;
+}
+
+    .sponsor-img:hover {
+        transform: scale(1.2,1.2);
+        box-shadow: 0px 0px 5px 0 rgb(0 0 0 / 50%);
+    }
+
+.spplat {
+    width: 336px;
+}
+
+.spgold {
+    width: 280px;
+    }
+
+.spsilv {
+    width: 224px;
+}
+
+.breadcrumb {
+    padding: 0.1rem;
+    background-color: black;
+}
+
+
+@media (max-width: 768px) {
+    .iframe-responsive {
+        padding-top: 8%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .counter-block {
+        text-align: center;
+        background-color: #45b139;
+        border-radius: 8px;
+        /*box-shadow: 0px 0px 10px #15b139;*/
+        margin-top:2px;
+    }
+
+    .counter-text {
+        color: white;
+        font-size: 36px;
+    }
+
+    .mob-button {
+        font-size:28px;
+            color:white;
+    }
+}

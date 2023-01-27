@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<style>
+        /*body{
+            overflow:hidden;
+        }*/
+        .col-xs-11,col-sm-10{
+           min-height: 95vh;
+        }
+    </style>
+    
+    <table class="welcome-table">
+        
+        <tr>
+            <td class="align-middle">
+
+                <div class="text-center">
+                    <div class="counter-block" id="counter-block">
+                        <div class="counter-text" id="counter"></div>
+                    </div>
+                    @*<h1 class="display-1" style="text-shadow: 7px 4px 10px black;">Welcome</h1>*@
+                    <img class="card-img logo-style" style="max-width:720px; padding-bottom:10px; margin-top:0px;" src="~/images/welcome/banner.jpg"/>
+                    
+                    @*<h4 style="margin:5px;">
+                        Καλωσορίσατε στην σελίδα εγγραφής για την Επιστημονική Εκδήλωση της εταιρίας Teva
+                    </h4>*@
+
+                    @*<p class="text-left">
+                            Thanks to a significant experience in scientific and professional meetings we are able to genuinely understand the needs of the congress secretariat, organizing committee and participants and offer high standard solutions and innovative ideas that will make your event not just run smoothly and professionally but also stand out from the rest.
+                        </p>
+                        <p class="text-left font-weight-bold">
+                            Vidalis Errikos Nikolaos, Partner VDL Audiovisual
+                        </p>*@
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <!-- Display the countdown timer in an element -->
+
+

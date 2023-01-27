@@ -1,0 +1,68 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Start";
+}
+<head>
+    <link rel="shortcut icon" type="image/png" href="~/images/VDL-logo.png" />
+</head>
+<style>
+    h1 {
+        color:black;
+        width: 600px;
+        margin: auto;
+        padding-top:50px;
+        padding-bottom: 50px;
+        font-size:70px;
+    }
+    .formtitle{
+        color:black;
+    }
+    .inputtext{
+        color:black;
+    }
+
+
+</style>
+
+<div class="container" style="background-image: url(https://vdlappstorage.blob.core.windows.net/platform-files/migraine-event/login-background2.jpg); height:100%; background-size:cover;">
+    <h1>Under Construction</h1>
+        <div class="mx-auto" style="width: 200px; margin:auto;">
+
+            <div class="wrapper">
+                <form class="form1">
+                    <div class="formtitle">
+                        Enter the password to proceed
+                    </div>
+
+                    <div class="input nobottomborder">
+                        <div class="inputtext">
+                            Password:
+                        </div>
+
+                        <div class="inputcontent">
+                            <input type="password" id="password" /><br />
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script>
+    function checkPassword() {
+        if (document.getElementById('password').value == '1065') {
+            alert('Correct Password!');
+            /*location.href = "https://localhost:44367/Welcome";*/
+            location.href = "https://migraine-event-specifargreece.liveonair.gr/Welcome/";
+            
+        } else {
+            alert('Wrong Password!');
+            return false;
+        }
+    }
+</script>

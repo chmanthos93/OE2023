@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OE2022.props" />
+</Project>

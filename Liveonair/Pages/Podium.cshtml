@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Podium page";
+}
+
+@*@{
+        Layout = "_Layout";
+    }*@
+<head>
+
+    <script src="/js/inred.js"></script>
+</head>
+
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    .iframe-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .iframe-responsive {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
+
+<div class="iframe-container">
+    <iframe class="iframe-responsive" src="https://signmitsos.azurewebsites.net/podium/msevent" frameborder="0"></iframe>
+</div>
