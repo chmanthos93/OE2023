@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2022.csproj": {}
+    "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2023.csproj": {}
   },
   "projects": {
-    "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2022.csproj": {
+    "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2022.csproj",
+        "projectUniqueName": "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2023.csproj",
         "projectName": "OE2022",
-        "projectPath": "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2022.csproj",
+        "projectPath": "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/OE2023.csproj",
         "packagesPath": "/Users/chmanthos/.nuget/packages/",
         "outputPath": "/Users/chmanthos/Documents/GitHub/OE2023/Liveonair/obj/",
         "projectStyle": "PackageReference",

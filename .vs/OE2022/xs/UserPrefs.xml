@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{94221A14-D96A-4C5B-A20E-EF321B4A0BD4}|Liveonair">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OE2023 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OE2022" expanded="True">
+            <Node name="OE2023" expanded="True" selected="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
