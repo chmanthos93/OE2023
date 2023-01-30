@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{94221A14-D96A-4C5B-A20E-EF321B4A0BD4}|Liveonair">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OE2023 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Liveonair/OE2023.csproj">
+    <Files>
+      <File FileName="Liveonair/Dockerfile" Line="22" Column="36" NotebookId="1" />
+      <File FileName="Liveonair/compose-dev.yaml" Line="13" Column="16" NotebookId="1" />
+      <File FileName="Liveonair/OE2023.csproj" Line="5" Column="22" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="197" Y="228" Width="1573" Height="915">
+        <Files>
+          <File FileName="Liveonair/Program.cs" Line="26" Column="2" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OE2023" expanded="True">
+            <Node name="OE2023" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Debugger.DebugSourceFolders />
+</Properties>

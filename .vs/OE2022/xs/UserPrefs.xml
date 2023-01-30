@@ -6,12 +6,15 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Liveonair/Dockerfile">
+    <Files>
+      <File FileName="Liveonair/Dockerfile" Line="22" Column="27" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OE2022" expanded="True">
-            <Node name="OE2023" expanded="True" selected="True">
+          <Node name="OE2022" expanded="True" selected="True">
+            <Node name="OE2023" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
               </Node>
@@ -21,4 +24,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <Debugger.DebugSourceFolders />
 </Properties>

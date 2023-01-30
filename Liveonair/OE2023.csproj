@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <PackageId>OE2022</PackageId>
+    <PackageId>OE2023</PackageId>
     <Authors>ChManthos</Authors>
     <Company>VDL</Company>
     <Copyright>VDL</Copyright>
@@ -10,7 +10,7 @@
 	<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
 	<UserSecretsId>554039d0-9476-458e-810c-2cd0920b90c1</UserSecretsId>
 	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-	<AssemblyName>OE2022</AssemblyName>
+	<AssemblyName>OE2023</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
