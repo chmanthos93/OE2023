@@ -32,7 +32,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "OE2022/1.0.0": {
+      "OE2023/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.4",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
@@ -327,10 +327,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "OE2022.dll": {}
+          "OE2023.dll": {}
         },
         "compile": {
-          "OE2022.dll": {}
+          "OE2023.dll": {}
         }
       },
       "Microsoft.AspNetCore.Http.Abstractions/1.0.0": {
@@ -2878,7 +2878,7 @@
     }
   },
   "libraries": {
-    "OE2022/1.0.0": {
+    "OE2023/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

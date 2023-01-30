@@ -1,4 +1,4 @@
-C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2022.exe
+C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2023.exe
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\appsettings.Development.json
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\appsettings.json
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -289,10 +289,10 @@ C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\refs\System.Xml.X
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\refs\System.Xml.XPath.dll
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\refs\System.Xml.XPath.XDocument.dll
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\refs\WindowsBase.dll
-C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2022.dll
-C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2022.deps.json
-C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2022.runtimeconfig.json
-C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2022.pdb
+C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2023.dll
+C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2023.deps.json
+C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2023.runtimeconfig.json
+C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\OE2023.pdb
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\ChManthos\Desktop\OE2023\Liveonair\obj\Docker\publish\Microsoft.AspNetCore.Razor.Language.dll
