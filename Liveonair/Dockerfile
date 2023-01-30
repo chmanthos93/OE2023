@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["Liveonair/OE2023.csproj", "Liveonair/"]
 RUN dotnet restore "Liveonair/OE2023.csproj"
 COPY . .
-WORKDIR "/src/Liveonair"
+WORKDIR "/src/"
 RUN dotnet build "OE2023.csproj" -c Release -o /app/build
 
 FROM build AS publish
