@@ -6,7 +6,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["OE2023.csproj"]
+COPY ["OE2023.csproj", "Liveonair/"]
 RUN dotnet restore "OE2023.csproj"
 COPY . .
 WORKDIR "/src/"
