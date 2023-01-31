@@ -1,0 +1,219 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Satellites";
+}
+@{
+    Layout = "_Layout";
+}
+
+<style>
+
+    body {
+        overflow: scroll;
+    }
+
+    .col-xs-11, col-sm-10 {
+        min-height: 95vh;
+    }
+
+
+    * {
+        box-sizing: border-box
+    }
+
+    /* Style tab links */
+    .tablink {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 33.33%;
+    }
+
+        .tablink:hover {
+            background-color: #777;
+        }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+        color: black;
+        display: none;
+        padding: 100px 20px;
+        height: 100%;
+    }
+
+    /*#Thursday {
+                background-color: red;
+            }
+
+            #News {
+                background-color: green;
+            }
+
+            #Contact {
+                background-color: blue;
+            }
+
+            #About {
+                background-color: orange;
+            }*/
+</style>
+
+<button class="tablink" onclick="openPage('Thursday', this, 'rgb(125, 205, 248)')" id="defaultOpen">Thursday</button>
+<button class="tablink" onclick="openPage('Friday', this, 'rgb(154, 199, 145)')">Friday</button>
+<button class="tablink" onclick="openPage('Saturday', this, 'rgb(182, 136, 115)')">Saturday</button>
+
+
+<div id="Thursday" class="tabcontent">
+
+    <div style="padding-top:10px;" class="container-fluid">
+        <div class="row">
+            
+            <div class="col-sm-6">
+                <h4>ΑΙΘΟΥΣΑ  ΜΑΪΣΤΡΟΣ Α’ / ΟΜΑΔΑ ΕΡΓΑΣΙΑΣ ΑΙΜΟΔΥΝΑΜΙΚΗΣ ΚΑΙ ΕΠΕΜΒΑΤΙΚΗΣ ΚΑΡΔΙΟΛΟΓΙΑΣ</h4>
+                <div class="container">
+                    
+                       
+                        <div class="col-sm">
+                            <div style="padding-top:25px;" class="row">
+                                <div class="col-12 center-block text-center">
+                                    <h5>18.00–18.30 	Δορυφορική Διάλεξη </h5>
+                                </div>
+                            </div>
+                            <div style="padding-top:10px;" class="col"><a href="./satellite/chiesi" target="_blank"><img class="mx-auto d-block rounded sponsor-img spsilv" src="https://liveonair.fra1.cdn.digitaloceanspaces.com/Logo/CHIESI.png" /></a></div>
+                            <h7 class="row text-justify">Γεφυρώνοντας το κενό στην περιεπεμβατική αναστολή των αιμοπεταλίων</h7>
+                            <div class="row">
+                                <div class="col-12 center-block text-center">
+                                <h7>Πρόεδρος: <b>Δ. Αλεξόπουλος</b> (Αθήνα)</h7>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 center-block text-center">
+                                <h7>Ομιλητής: <b>Κ. Τούτουζας</b> (Αθήνα)</h7>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm">
+                            <div style="padding-top:25px;" class="row">
+                                <div class="col-12 center-block text-center">
+                                    <h5>20.00–20.30 	Δορυφορική Διάλεξη </h5>
+                                </div>
+                            </div>
+                        <div style="padding-top:10px;" class="col"><a href="./satellite/zerono" target="_blank"><img class="mx-auto d-block rounded sponsor-img spsilv" src="https://liveonair.fra1.cdn.digitaloceanspaces.com/Logo/ZERONO.png" /></a></div>
+                            <h7 class="row text-justify">Μεγάλη ποσότητα θρόμβου στα στεφανιαία αγγεία, ένας διαχρονικός εφιάλτης στο εργαστήριο. Πρώτα δεδομένα από την χρήση νέας συσκευής θρομβεκτομής </h7>
+                            <div class="row">
+                                <div class="col-12 center-block text-center">
+                                <h7>Πρόεδρος: <b>Γ. Κοχιαδάκης</b> (Ηράκλειο)</h7>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 center-block text-center">
+                                <h7>Ομιλητής: <b>Γ. Τριάντης</b> (Αθήνα)</h7>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </div>
+           
+            <div class="col-sm-6">
+                <h4>ΑΙΘΟΥΣΑ ΜΑΪΣΤΡΟΣ Β’ / ΟΜΑΔΑ ΕΡΓΑΣΙΑΣ ΗΛΕΚΤΡΟΦΥΣΙΟΛΟΓΙΑΣ</h4>
+                <div class="container">
+
+                    <div class="col-sm">
+                        <div style="padding-top:25px;" class="row">
+                            <div class="col-12 center-block text-center">
+                                <h5>13.30–14.00 	Δορυφορική Διάλεξη </h5>
+                            </div>
+                        </div>
+                        <div style="padding-top:10px;" class="col"><a href="./satellite/sanofi" target="_blank"><img class="mx-auto d-block rounded sponsor-img spsilv" src="https://liveonair.fra1.digitaloceanspaces.com/Logo/SANOFI.jpg" /></a></div>
+                        <h7 class="row text-justify">Αντιαιμοπεταλική διαχείριση ασθενών υψηλού κινδύνου</h7>
+                        <div class="row">
+                            <div class="col-12 center-block text-center">
+                                <h7>Πρόεδρος: <b>Κ. Τούτουζας</b> (Αθήνα)</h7>
+                            </div>
+                        </div>
+                        <div class="row text-justify">
+                            <h7>
+                                Εισαγωγή
+                                Νεότερες εξελίξεις στη διαχείριση της αντιαιμοπεταλιακής αγωγής και διάρκεια θεραπείας – <b>Ι. Τσιαφούτης</b> (Αθήνα)
+                                
+                            </h7>
+                        </div>
+                        <div class="row text-justify">
+                            <h7>
+                                Παρουσίαση σχετικού κλινικού περιστατικού
+                                Q&A- Συμπεράσματα
+                            </h7>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div style="padding-top:25px;" class="row">
+                            <div class="col-12 center-block text-center">
+                                <h5>16.30–17.00 	Δορυφορική Διάλεξη </h5>
+                            </div>
+                        </div>
+                        <div style="padding-top:10px;" class="col"><a href="./satellite/abbott" target="_blank"><img class="mx-auto d-block rounded sponsor-img spsilv" src="https://liveonair.fra1.digitaloceanspaces.com/Logo/ABBOTT.jpg" /></a></div>
+                        <h7 class="row text-justify">Το MitraClip Άλλαξε τη Ζωή σε 500 Ασθενείς. Πώς φτάσαμε ως εδώ</h7>
+                        <div class="row">
+                            <div class="col-12 center-block text-center">
+                                <h7>Πρόεδρος: <b>Γ. Κοχιαδάκης</b> (Ηράκλειο)</h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 center-block text-center">
+                                <h7>MitraClip, η Εξέλιξη – <b>Βλ. Νινιός</b> (Θεσσαλονίκη)</h7>
+                            </div>
+                            <div class="col-12 center-block text-center">
+                                <h7>MitraClip, Κατευθυντήριες Οδηγίες και Πρόσφατες Κλινικές Μελέτες  – <b>Κ. Τούτουζας</b> (Θεσσαλονίκη)</h7>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="Friday" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p>
+</div>
+
+<div id="Saturday" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+
+<script>
+    function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
