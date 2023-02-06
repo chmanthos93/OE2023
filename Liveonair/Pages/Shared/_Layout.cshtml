@@ -15,31 +15,31 @@
 <body>
     <header>
         @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #e3f2fd;">
-                <div class="container">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index">Liveonair</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                            </li>
-                        </ul>
-                        </div>
-                </div>
-            </nav>*@
+        <div class="container">
+        <a class="navbar-brand" asp-area="" asp-page="/Index">Liveonair</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+        <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </nav>*@
     </header>
 
     <style>
-        
+
     </style>
 
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xs-1 col-sm-2 bg-menu">
                 <nav class="navbar-nav navbar-expand-lg bg-menu flex-column">
@@ -55,9 +55,9 @@
                             <li class="nav-item item-menu">
                                 <a class="nav-link text-light" asp-area="" asp-page="/Welcome">Home</a>
                             </li>
-                            @*<li class="nav-item item-menu">
-            <a class="nav-link text-light" asp-area="" asp-page="/Registration">Registration</a>
-        </li>*@
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Register">Registration</a>
+                            </li>
                             <li class="nav-item item-menu">
                                 <a class="nav-link text-light" asp-area="" asp-page="/Livestream">Live Stream</a>
                             </li>
@@ -68,8 +68,8 @@
                                 <a class="nav-link text-light" asp-area="" asp-page="/Speakers">Speakers Index</a>
                             </li>
                             @*<li class="nav-item item-menu">
-            <a class="nav-link text-light" asp-area="" asp-page="/ePosters">e-Posters</a>
-        </li>*@
+                            <a class="nav-link text-light" asp-area="" asp-page="/ePosters">e-Posters</a>
+                            </li>*@
                             <li class="nav-item item-menu">
                                 <a class="nav-link text-light" asp-area="" asp-page="/Sponsors">Sponsors</a>
                             </li>
@@ -80,14 +80,18 @@
                                 <a class="nav-link text-light" asp-area="" asp-page="/EhraSession">EHRA Session</a>
                             </li>
                             @*<li class="nav-item item-menu">
-            <a class="nav-link text-light" asp-area="" asp-page="/Exhibition">Virtual Exhibition</a>
-        </li>*@
+                            <a class="nav-link text-light" asp-area="" asp-page="/Exhibition">Virtual Exhibition</a>
+                            </li>*@
                             @* <li class="nav-item item-menu">
-            <a class="nav-link text-light" asp-area="" asp-page="/eSite">VDL Website</a>
-        </li>*@
+                            <a class="nav-link text-light" asp-area="" asp-page="/eSite">VDL Website</a>
+                            </li>*@
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/boardofdirectors">Board Of Directors</a>
+                            </li>
                             <li class="nav-item item-menu">
                                 <a class="nav-link text-light" asp-area="" asp-page="/Livevideohelp">Live Video Help</a>
                             </li>
+                            
                         </ul>
                     </div>
                 </nav>
@@ -96,7 +100,7 @@
                 <main role="main" class="pb-3">
                     @*<img class="card-img" style="max-width:auto;" src="./images/header.jpg"/>
                     <div class="counter-block" id="counter-block">
-                        <p class="counter-text" id="counter"></p>
+                    <p class="counter-text" id="counter"></p>
                     </div>*@
                     @RenderBody()
                 </main>
@@ -114,40 +118,40 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script>
-// Set the date we're counting down to
-var countDownDate = new Date("FEB 16, 2023 08:30:00").getTime();
+        // Set the date we're counting down to
+        var countDownDate = new Date("FEB 16, 2023 08:30:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+        // Update the count down every 1 second
+        var x = setInterval(function () {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+            // Get today's date and time
+            var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("counter").innerHTML = days + "D " + hours + "H "
-  + minutes + "M " + seconds + "S ";
+            // Display the result in the element with id="demo"
+            document.getElementById("counter").innerHTML = days + "D " + hours + "H "
+                + minutes + "M " + seconds + "S ";
 
-  // If the count down is finished, write some text
-  //if (distance < 0) {
-  //  clearInterval(x);
-  //  document.getElementById("counter").style.visibility="hidden";
-  //}
+            // If the count down is finished, write some text
+            //if (distance < 0) {
+            //  clearInterval(x);
+            //  document.getElementById("counter").style.visibility="hidden";
+            //}
 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "The Event Is Live";
-  }
-}, 1000);
-</script>
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "The Event Is Live";
+            }
+        }, 1000);
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

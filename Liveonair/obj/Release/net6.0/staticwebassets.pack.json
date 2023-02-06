@@ -149,6 +149,10 @@
       "PackagePath": "staticwebassets\\js\\inred.js"
     },
     {
+      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\protection.js",
+      "PackagePath": "staticwebassets\\js\\protection.js"
+    },
+    {
       "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

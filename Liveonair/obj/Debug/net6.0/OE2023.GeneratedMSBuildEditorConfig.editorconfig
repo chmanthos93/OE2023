@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\ChManthos\Desktop\OE2023\Liveonair
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/BoardOfDirectors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9hcmRPZkRpcmVjdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/ChatEN.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEVOLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +48,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2ZXN0cmVhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Livevideohelp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2ZXZpZGVvaGVscC5jc2h0bWw=
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Livevideohelp - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2ZXZpZGVvaGVscCAtIENvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Moderator.cshtml]
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/QuestionsGR.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zR1IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Registration.cshtml]
@@ -100,10 +108,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXEJheWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/Boehringer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXEJvZWhyaW5nZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/Chiesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXENoaWVzaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -122,6 +126,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/Pfizer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXFBmaXplci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/PfizerFriday.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXFBmaXplckZyaWRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/PfizerSaturday.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXFBmaXplclNhdHVyZGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/Protected/Boehringer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F0ZWxsaXRlXFByb3RlY3RlZFxCb2VocmluZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Satellite/RocheDiagnostics.cshtml]

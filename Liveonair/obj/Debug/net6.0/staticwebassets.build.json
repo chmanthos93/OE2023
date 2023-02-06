@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OESuKQ8R+t+pCbTd63BKigrUYra7Yo5Po+iEx8dlYPY=",
+  "Hash": "bf2WNjOAE2d1NiQISLLHZv7Tkl2S3Zwas2d+y7a1oyY=",
   "Source": "OE2023",
   "BasePath": "_content/OE2023",
   "Mode": "Default",
@@ -644,6 +644,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\inred.js"
+    },
+    {
+      "Identity": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\protection.js",
+      "SourceId": "OE2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\",
+      "BasePath": "_content/OE2023",
+      "RelativePath": "js/protection.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\protection.js"
     },
     {
       "Identity": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\site.js",
