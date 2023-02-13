@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bf2WNjOAE2d1NiQISLLHZv7Tkl2S3Zwas2d+y7a1oyY=",
+  "Hash": "so6HgYk7eNIzZEgflpniFqAcUbJPZrw29nuMsYYEXuo=",
   "Source": "OE2023",
   "BasePath": "_content/OE2023",
   "Mode": "Default",
@@ -627,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\welcome\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\counter.js",
+      "SourceId": "OE2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\",
+      "BasePath": "_content/OE2023",
+      "RelativePath": "js/counter.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\counter.js"
     },
     {
       "Identity": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\inred.js",

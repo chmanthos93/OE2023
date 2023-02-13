@@ -145,6 +145,10 @@
       "PackagePath": "staticwebassets\\images\\welcome\\banner.jpg"
     },
     {
+      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\counter.js",
+      "PackagePath": "staticwebassets\\js\\counter.js"
+    },
+    {
       "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\js\\inred.js",
       "PackagePath": "staticwebassets\\js\\inred.js"
     },

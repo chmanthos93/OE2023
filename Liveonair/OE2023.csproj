@@ -46,4 +46,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Satellite\Protected\" />
+  </ItemGroup>
+
 </Project>
