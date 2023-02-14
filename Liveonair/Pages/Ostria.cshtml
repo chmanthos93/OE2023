@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Ostria";
+}
+
+@{
+    Layout = "_Layout_Mod";
+}
+
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    .iframe-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /*.iframe-responsive {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }*/
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <div class="iframe-container">
+                <iframe class="iframe-responsive" src="https://sign.letscongress.eu/moderator/d7ef8b7c-a0c0-4140-bcac-f6dd3c183944" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="iframe-container">
+                <iframe class="iframe-responsive" src="https://stagetimer.io/r/114221AL" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>

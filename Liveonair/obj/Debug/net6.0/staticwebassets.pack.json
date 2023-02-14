@@ -17,14 +17,6 @@
       "PackagePath": "staticwebassets\\images\\amfiktionieslogo.png"
     },
     {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\banner.png",
-      "PackagePath": "staticwebassets\\images\\banner.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\elipykalogo.png",
-      "PackagePath": "staticwebassets\\images\\elipykalogo.png"
-    },
-    {
       "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\hcs_logo-wide-dark.png",
       "PackagePath": "staticwebassets\\images\\hcs_logo-wide-dark.png"
     },
@@ -33,108 +25,8 @@
       "PackagePath": "staticwebassets\\images\\hcs_logo.jpg"
     },
     {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\header.jpg",
-      "PackagePath": "staticwebassets\\images\\header.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\header.old.jpg",
-      "PackagePath": "staticwebassets\\images\\header.old.jpg"
-    },
-    {
       "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\liveonairlogo.png",
       "PackagePath": "staticwebassets\\images\\liveonairlogo.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\alumil.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\alumil.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\dimand.old.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\dimand.old.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\dimand.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\dimand.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\dps.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\dps.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\elemko.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\elemko.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\elval.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\elval.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\evel-logo.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\evel-logo.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\fibran.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\fibran.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\ift-hellas.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\ift-hellas.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\ilicon.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\ilicon.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\isoren-logo.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\isoren-logo.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\knauf.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\knauf.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\knaufinsul.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\knaufinsul.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\marvon.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\marvon.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\metallemporiki-makris.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\metallemporiki-makris.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\mot.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\mot.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\ninz.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\ninz.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\noval-property.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\noval-property.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\safedoor.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\safedoor.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\sika.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\sika.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\systemair.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\systemair.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\viatec.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\viatec.png"
-    },
-    {
-      "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\sponsors\\zarifopoulos.png",
-      "PackagePath": "staticwebassets\\images\\sponsors\\zarifopoulos.png"
     },
     {
       "Id": "C:\\Users\\ChManthos\\Desktop\\OE2023\\Liveonair\\wwwroot\\images\\vdllogo.png",

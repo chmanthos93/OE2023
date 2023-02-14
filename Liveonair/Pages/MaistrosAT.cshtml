@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "MaistrosAT";
+}
+
+@{
+    Layout = "_Layout_Mod";
+}
+
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    /*.iframe-container {
+        width: 100%;
+        overflow: hidden;
+    }*/
+
+    /*.iframe-responsive {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }*/
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-8">
+<div class="iframe-container">
+    <iframe class="iframe-responsive" src="https://sign.letscongress.eu/moderator/d9747f70-2f69-4c3c-a995-c22012953ba6" frameborder="0"></iframe>
+</div>
+</div>
+<div class="col-4">
+    <div class="iframe-container">
+            <iframe class="iframe-responsive" src="https://stagetimer.io/r/XBQ35T7M/" frameborder="0"></iframe>
+    </div>
+</div>
+</div>
+</div>

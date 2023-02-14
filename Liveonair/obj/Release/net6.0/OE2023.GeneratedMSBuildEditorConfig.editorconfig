@@ -20,14 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9hcmRPZkRpcmVjdG9ycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/ChatEN.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEVOLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/ChatGR.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEdSLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/EhraSession.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWhyYVNlc3Npb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,8 +44,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2ZXZpZGVvaGVscC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/MaistrosA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpc3Ryb3NBLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/MaistrosAT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpc3Ryb3NBVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/MaistrosB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpc3Ryb3NCLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Moderator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kZXJhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Ostria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3N0cmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Podium.cshtml]
@@ -68,12 +76,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/QuestionsEN.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zRU4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/QuestionsGR.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zR1IuY3NodG1s
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/ProgramMod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbU1vZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Register.cshtml]
@@ -176,6 +180,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Siroko.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lyb2tvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Speaker.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlYWtlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -198,6 +206,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/Zefyros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmVmeXJvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ChManthos/Desktop/OE2023/Liveonair/Pages/_ViewImports.cshtml]

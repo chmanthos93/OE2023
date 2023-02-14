@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Liveonair</title>
+    <title>@ViewData["Title"] - Omades Egrasias 2023</title>
     <link rel="shortcut icon" type="image/png" href="./images/vdllogo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -13,32 +13,7 @@
     <script src="/js/inred.js"></script>
 </head>
 <body>
-    <header>
-        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #e3f2fd;">
-                <div class="container">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index">Liveonair</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                            </li>
-                        </ul>
-                        </div>
-                </div>
-            </nav>*@
-    </header>
-
-    <style>
-        
-    </style>
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xs-1 col-sm-2 bg-menu">
                 <nav class="navbar-nav navbar-expand-lg navbar-dark bg-menu flex-column">
@@ -48,43 +23,34 @@
                     <div class="collapse navbar-collapse pt-lg-3" id="mainmenu" style="margin:auto">
 
                         <ul class="navbar-nav flex-sm-column mr-auto text-left font-weight-bold">
-                            <li class="nav-item pb-lg-2" @*style="background-color:white;"*@>
+                            <li class="nav-item pb-lg-2">
                                 <img class="card-img item-logo" style="background-color: white;" src="~/images/hcs_logo-wide-dark.png" />
                             </li>
-                            @*<li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Welcome">Home</a>
-                            </li>*@
-                            @*<li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Livestream">Live stream</a>
-                            </li>*@
                             <li class="nav-item item-menu">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Program">Program</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/ProgramMod">Program</a>
                             </li>
-                           @* <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Speaker Info">Speakers</a>
-                            </li>*@
-                            <li class="nav-item item-menu">
-                                <a class="nav-link text-light" asp-area="" asp-page="/QuestionsEN">Questions EN</a>
-                            </li>
-                             <li class="nav-item item-menu">
-                                <a class="nav-link text-light" asp-area="" asp-page="/QuestionsGR">Questions GR</a>
+                                                       <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/MaistrosA">Maistros A</a>
                             </li>
                             <li class="nav-item item-menu">
-                                <a class="nav-link text-light" asp-area="" asp-page="/ChatEN">ChatEN</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/MaistrosB">Maistros B</a>
                             </li>
                             <li class="nav-item item-menu">
-                                <a class="nav-link text-light" asp-area="" asp-page="/ChatGR">ChatGR</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/Zefyros">Zefyros</a>
                             </li>
-                            @*<li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Livevideohelp">Live Video Help</a>
-                            </li>*@
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Siroko">Siroko</a>
+                            </li>
+                            <li class="nav-item item-menu">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Ostria">Ostria</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
             </div>
             <div class="col-xs-11 col-sm-10" style="min-height:90vh;">
                 <main role="main" class="pb-3">
-                    @*<img class="card-img" style="max-width:auto;" src="./images/header.jpg/>*@
+                    
 
                     @RenderBody()
                 </main>
