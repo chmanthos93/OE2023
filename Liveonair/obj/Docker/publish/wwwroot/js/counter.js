@@ -29,7 +29,7 @@ var x = setInterval(function () {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "The Event Is Live";
+        document.getElementById("counter").innerHTML = "The Event Is Live";
     }
 }, 1000);
 
